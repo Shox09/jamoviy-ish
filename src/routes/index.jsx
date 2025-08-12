@@ -20,6 +20,7 @@ export const routes = createBrowserRouter([
       { path: "product_avtohim", element: <div>produvt_avtohim</div> },
       { path: "product_ag-tech", element: <div>product_ag=tech</div> },
       { path: "contact", element: <div>contact</div> },
+      { path: "main", element: <div>Main</div> },
     ],
   },
 ]);

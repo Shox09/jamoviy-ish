@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.flex-container{
+    background-image: url(https://i0.wp.com/unusualplaces.org/wp-content/uploads/2020/07/image2-1.png?ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+      font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 20px 5px;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.center p{
+    color: white;
+}
+
+.center p:hover{
+    color: rgb(15, 3, 68);
+    transform: scale(1.1);
+}
+
+.center a{
+    text-decoration: none;
+}
+
+.right button{
+    background-color: rgba(92, 142, 229, 1);
+    width: 202px;
+    height: 50px;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right button:hover{
+    transform: scale(0.9);
+    transition: 0.5s all ease-in-out;
+}
+
+
+.h1 h1{
+    margin-top: 80px;
+    color: white;
+    font-size: 50px;
+}
+
+.text p{
+    color: white;
+    margin-top: 30px;
+    line-height: 22px;
+}
+
+.button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(92, 142, 229, 1);
+    width: 200px;
+    height: 55px;
+    margin-top: 45px;
+    color: white;
+    border: none;
+}
+
+.button button:hover{
+    transform: scale(0.9);
+    transition: 0.5s all ease-in-out;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.boxs{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.boxs p{
+    color: white;
+    margin-top: 15px;
+    line-height: 22px;
+}

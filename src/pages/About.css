@@ -1,0 +1,330 @@
+.about-main{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.icon {
+color: #5c8ee5;
+}
+.line {
+width: 150px;
+height: 2px;
+background-color: #5c8ee5;
+}
+.about-top-info {
+background-color: #f0f2f5;
+}
+.about-top-info h1 {
+font-size: 45px;
+text-transform: uppercase;
+font-weight: 400;
+}
+.about-link {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.about-link a {
+color: #828a99;
+text-decoration: none;
+font-weight: 500;
+}
+
+
+.about-top {
+display: flex;
+gap: 40px;
+align-items: center;
+}
+
+.about-image-circle {
+width: 350px;
+height: 350px;
+background: #ccc;
+border-radius: 50%;
+}
+
+.about-text h2 {
+font-size: 40px;
+margin-bottom: 15px;
+width: 600px;
+font-weight: 400;
+}
+
+.about-text p {
+color: #555;
+line-height: 1.6;
+width: 780px;
+}
+
+.features {
+display: flex;
+justify-content: space-between;
+margin: 40px 0;
+}
+
+.feature-card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+flex: 1;
+border: 2px solid #ebebf0;
+padding: 25px 35px;
+line-height: 1.5;
+}
+.icon {
+width: 25px;
+}
+.truck {
+width: 30px;
+}
+.speed {
+width: 30px;
+}
+
+.icon-placeholder {
+width: 50px;
+height: 50px;
+background: #ddd;
+margin: 0 auto 10px;
+border-radius: 8px;
+}
+
+.production {
+display: flex;
+gap: 40px;
+align-items: flex-start;
+}
+
+.production-text {
+flex: 1;
+}
+
+.production-text h2 {
+font-weight: 400;
+font-size: 35px;
+margin-bottom: 15px;
+}
+
+.production-text ul {
+margin-top: 15px;
+display: flex;
+justify-content: start;
+gap: 30px;
+margin-left: -20px;
+}
+.production-text p {
+width: 700px;
+color: #828a99;
+}
+
+.production-text ul li {
+margin-bottom: 8px;
+list-style: none;
+}
+.li {
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.pexels {
+width: 400px;
+}
+.pavel {
+width: 650px;
+margin-left: -165px;
+}
+
+.about-block {
+display: flex;
+align-items: start;
+margin-bottom: 50px;
+gap: 40px;
+margin-top: 50px;
+}
+
+.about-block .reverse {
+flex-direction: row-reverse;
+}
+
+.section-title {
+font-size: 28px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.about-text p {
+color: #555;
+line-height: 1.6;
+margin-bottom: 20px;
+width: 720px;
+}
+
+.about-list {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+color: #333;
+list-style: none;
+padding: 0;
+}
+
+.research-text {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+line-height: 1.6;
+}
+.research h2 {
+font-weight: 400;
+font-size: 35px;
+margin-bottom: 15px;
+width: 600px;
+}
+.research-text p {
+width: 550px;
+color: #828a99;
+}
+
+.research-images {
+display: flex;
+gap: 15px;
+margin-top: 20px;
+line-height: 1.5;
+}
+
+.research-images img {
+width: 50%;
+object-fit: cover;
+}
+
+/* ===== PRODUCTS ===== */
+.products-content {
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+margin-top: 20px;
+}
+
+.products h2 {
+font-weight: 400;
+font-size: 35px;
+margin-bottom: 15px;
+width: 600px;
+}
+.ul {
+display: flex;
+align-items: start;
+justify-content: space-between;
+gap: 20px;
+flex: 1;
+list-style: none;
+margin-left: -30px;
+}
+.li img {
+width: 28px;
+height: 28px;
+}
+
+.products-logos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+margin-left: 50px;
+}
+
+.products-logos img {
+width: 180px;
+}
+.products-logos img:hover {
+transform: scale(1.05);
+transition: transform 0.3s ease;
+content: url('Frame 24.png');
+}
+.product-parent {
+display: flex;
+gap: 35px;
+}
+.product-left {
+display: flex;
+flex-direction: column;
+justify-content:start;
+}
+
+
+.about-contact-container {
+display: flex;
+align-items: center;
+justify-content: start;
+background-color: rgba(240, 242, 245, 1);
+height: 400px;
+padding-bottom: 80px;
+margin-top: 100px;
+width: 100%;
+}
+.about-contact-image img {
+width: 550px;
+height: auto;
+}
+
+.about-contact-button {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.about-contact-form {
+max-width: 750px;
+margin-left: 40px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+.abbout-contact-form h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.about-contact-form p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+button {
+  background: #2979ff;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 235px;
+  height: 45px;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+small {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  color: #555;
+}
